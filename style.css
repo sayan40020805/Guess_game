@@ -4,8 +4,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(rgb(59, 180, 232), rgb(240, 240, 244));
 }
+
 .main-container {
     text-align: center;
     background-color: #ffffff;
@@ -13,6 +14,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 button {
     padding: 10px 20px;
     background-color: #007bff;
@@ -22,9 +24,12 @@ button {
     border-radius: 4px;
     font-size: 1.1em;
 }
+
 button:hover {
     font-size: 20px;
 }
-h1,p{
+
+h1,
+p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
